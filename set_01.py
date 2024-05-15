@@ -29,3 +29,4 @@ set2.discard('ten') #удаление в тихую если нет элемен
 #set2.remove('ten') #ошибка еслм нет такого элемента
 set2.pop()
 print(set2)
+print(1)
