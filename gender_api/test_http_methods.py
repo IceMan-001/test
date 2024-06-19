@@ -1,7 +1,7 @@
 import requests
 import json
 from fake_useragent import UserAgent
-1
+
 user_agent = UserAgent()
 # print(user_agent.random)  # user_agent.chrom
 
