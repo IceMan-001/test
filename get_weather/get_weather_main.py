@@ -6,21 +6,31 @@ from bs4 import BeautifulSoup as bs
 from fake_useragent import UserAgent
 
 
-def get_html(url: str) -> str:
+def get_html(url: str) -> str | None:
     user_agent = UserAgent()
     headers = {"User-Agent": user_agent.random}
-    response = requests.get(url, headers=headers)
-    print(f"Код ответа {response.status_code}")
-    return response.text
+    try:
+        response = requests.get(url, headers=headers)
+        response.raise_for_status()
+        print(f"Код ответа {response.status_code}")
+        status = response.status_code
+        if status == 200:
+            return response.text
+
+    except requests.exceptions.HTTPError as errh:
+        print("HTTP Error")
+        print(errh.args[0])
+    print(response)
 
 
 def get_weather(html: str):
+    if html is None:
+        return
     soup = bs(html, 'html.parser')
-    date = soup.find('div', class_="dates short-d").text.split(', ')  # None
-    # if date:
-    #     date = date.text.split(', ')
-    # else:
-    #     date = ['None', 'None']
+    # date = soup.find('div', class_="dates short-d").text.split(', ')  # None
+    date = soup.find_all('div', class_="dates short-d")[1].text.split(', ')  # None
+    # date = soup.find('div', class_="dates short-d red").text.split(', ')  # None
+
     day_of_week = date[0]
     day_of_month = date[1]
 
@@ -32,7 +42,7 @@ def get_weather(html: str):
     for row in rows:
         weather_day = row.find('td', class_="weather-day").text
         temperature = row.find('td', class_="weather-temperature").text
-        atmosfera = row.find('td', class_="weather-temperature").find('div').get('title')
+        atmosphere = row.find('td', class_="weather-temperature").find('div').get('title')
         weather_feeling = row.find('td', class_="weather-feeling").text
         probability = row.find('td', class_="weather-probability").text
         pressure = row.find('td', class_="weather-pressure").text
@@ -43,7 +53,7 @@ def get_weather(html: str):
 
         weather_today[weather_day] = {
             "temperature": temperature,
-            "atmosfera": atmosfera,
+            "atmosphere": atmosphere,
             "weather_feeling": weather_feeling,
             "probability": probability,
             "pressure": pressure,
@@ -58,6 +68,7 @@ def get_weather(html: str):
 
 
 URL = "https://world-weather.ru/pogoda/russia/saint_petersburg/"
+
 html = get_html(URL)
 weather_info = get_weather(html)
 
@@ -65,4 +76,4 @@ weather_json = json.dumps(weather_info, indent=2, ensure_ascii=False)
 print(weather_json)
 
 # with open('index.html', 'w') as file:
-#     file.write(get_html(URL))
+#     file.write(html)
