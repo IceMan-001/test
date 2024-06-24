@@ -1,0 +1,150 @@
+USD, {'number_code': '840', 'name': 'Доллар США', 'course': '87.9595'}
+EUR, {'number_code': '978', 'name': 'Евро', 'course': '94.2606'}
+CNY, {'number_code': '156', 'name': 'Китайский юань', 'course': '12.0455'}
+AED, {'number_code': '784', 'name': 'Дирхам ОАЭ', 'course': '23.9509'}
+AMD, {'number_code': '51', 'name': 'Армянский драм', 'course': '22.6396'}
+AUD, {'number_code': '36', 'name': 'Австралийский доллар', 'course': '58.6250'}
+AZN, {'number_code': '944', 'name': 'Азербайджанский манат', 'course': '51.7409'}
+BGN, {'number_code': '975', 'name': 'Болгарский лев', 'course': '48.2065'}
+BRL, {'number_code': '986', 'name': 'Бразильский реал', 'course': '16.2134'}
+BYN, {'number_code': '933', 'name': 'Белорусский рубль', 'course': '27.2683'}
+CAD, {'number_code': '124', 'name': 'Канадский доллар', 'course': '64.2134'}
+CHF, {'number_code': '756', 'name': 'Швейцарский франк', 'course': '98.6093'}
+CZK, {'number_code': '203', 'name': 'Чешская крона', 'course': '37.6845'}
+DKK, {'number_code': '208', 'name': 'Датская крона', 'course': '12.6419'}
+EGP, {'number_code': '818', 'name': 'Египетский фунт', 'course': '18.4366'}
+GBP, {'number_code': '826', 'name': 'Фунт стерлингов', 'course': '111.5854'}
+GEL, {'number_code': '981', 'name': 'Грузинский лари', 'course': '31.4130'}
+HKD, {'number_code': '344', 'name': 'Гонконгский доллар', 'course': '11.2928'}
+HUF, {'number_code': '348', 'name': 'Венгерский форинт', 'course': '23.6501'}
+IDR, {'number_code': '360', 'name': 'Индонезийская рупия', 'course': '53.5685'}
+INR, {'number_code': '356', 'name': 'Индийская рупия', 'course': '10.5232'}
+JPY, {'number_code': '392', 'name': 'Японская иена', 'course': '55.3204'}
+KGS, {'number_code': '417', 'name': 'Киргизский сом', 'course': '10.1384'}
+KRW, {'number_code': '410', 'name': 'Вон Республики Корея', 'course': '63.3577'}
+KZT, {'number_code': '398', 'name': 'Казахстанский тенге', 'course': '19.1383'}
+MDL, {'number_code': '498', 'name': 'Молдавский лей', 'course': '49.2285'}
+NOK, {'number_code': '578', 'name': 'Норвежская крона', 'course': '83.4998'}
+NZD, {'number_code': '554', 'name': 'Новозеландский доллар', 'course': '53.8576'}
+PLN, {'number_code': '985', 'name': 'Польский злотый', 'course': '21.7039'}
+QAR, {'number_code': '634', 'name': 'Катарский риал', 'course': '24.1647'}
+RON, {'number_code': '946', 'name': 'Румынский лей', 'course': '18.9018'}
+RSD, {'number_code': '941', 'name': 'Сербский динар', 'course': '80.5573'}
+SEK, {'number_code': '752', 'name': 'Шведская крона', 'course': '84.1970'}
+SGD, {'number_code': '702', 'name': 'Сингапурский доллар', 'course': '64.9867'}
+THB, {'number_code': '764', 'name': 'Таиландский бат', 'course': '23.9626'}
+TJS, {'number_code': '972', 'name': 'Таджикский сомони', 'course': '82.6858'}
+TMT, {'number_code': '934', 'name': 'Новый туркменский манат', 'course': '25.1313'}
+TRY, {'number_code': '949', 'name': 'Турецкая лира', 'course': '26.9811'}
+UAH, {'number_code': '980', 'name': 'Украинская гривна', 'course': '21.7085'}
+UZS, {'number_code': '860', 'name': 'Узбекский сум', 'course': '69.5893'}
+VND, {'number_code': '704', 'name': 'Вьетнамский донг', 'course': '36.2630'}
+XDR, {'number_code': '960', 'name': 'СДР (специальные права заимствования)', 'course': '115.8928'}
+ZAR, {'number_code': '710', 'name': 'Южноафриканский рэнд', 'course': '48.9823'}
+AFN, {'number_code': '971', 'name': 'Афганских афгани', 'course': '97.9723'}
+ALL, {'number_code': '8', 'name': 'Лек', 'course': '78.7815'}
+AOA, {'number_code': '973', 'name': 'Ангольских кванз', 'course': '17.7302'}
+ARS, {'number_code': '32', 'name': 'Аргентинское песо', 'course': '81.4138'}
+AWG, {'number_code': '533', 'name': 'Арубанский флорин', 'course': '48.5964'}
+BAM, {'number_code': '977', 'name': 'Конвертируемая марка', 'course': '49.4154'}
+BBD, {'number_code': '52', 'name': 'Барбадосский доллар', 'course': '43.5637'}
+BDT, {'number_code': '50', 'name': 'Така', 'course': '10.2106'}
+BHD, {'number_code': '48', 'name': 'Бахрейнский динар', 'course': '233.3143'}
+BIF, {'number_code': '108', 'name': 'Бурундийский франк', 'course': '43.9907'}
+BMD, {'number_code': '60', 'name': 'Бермудский доллар', 'course': '87.9595'}
+BND, {'number_code': '96', 'name': 'Брунейский доллар', 'course': '64.7046'}
+BOB, {'number_code': '68', 'name': 'Боливиано', 'course': '12.7941'}
+BSD, {'number_code': '44', 'name': 'Багамский доллар', 'course': '87.9595'}
+BTN, {'number_code': '64', 'name': 'Нгултрум', 'course': '11.5735'}
+BWP, {'number_code': '72', 'name': 'Пула', 'course': '75.6452'}
+BZD, {'number_code': '84', 'name': 'Белизский доллар', 'course': '43.6372'}
+CDF, {'number_code': '976', 'name': 'Конголезских франков', 'course': '43.9547'}
+CLP, {'number_code': '152', 'name': 'Чилийское песо', 'course': '11.0485'}
+COP, {'number_code': '170', 'name': 'Колумбийское песо', 'course': '23.3969'}
+CRC, {'number_code': '188', 'name': 'Костариканский колон', 'course': '13.6703'}
+CUP, {'number_code': '192', 'name': 'Кубинское песо', 'course': '36.6498'}
+CVE, {'number_code': '132', 'name': 'Эскудо Кабо-Верде', 'course': '87.4610'}
+DJF, {'number_code': '262', 'name': 'Франк Джибути', 'course': '49.4085'}
+DOP, {'number_code': '214', 'name': 'Доминиканское песо', 'course': '16.0422'}
+DZD, {'number_code': '12', 'name': 'Алжирский динар', 'course': '61.8418'}
+ERN, {'number_code': '232', 'name': 'Эритрейская накфа', 'course': '58.3479'}
+ETB, {'number_code': '230', 'name': 'Эфиопский быр', 'course': '17.1541'}
+FJD, {'number_code': '242', 'name': 'Доллар Фиджи', 'course': '41.7016'}
+FKP, {'number_code': '238', 'name': 'Фунт Фолклендских островов', 'course': '117.2852'}
+GHS, {'number_code': '936', 'name': 'Ганский седи', 'course': '12.6107'}
+GIP, {'number_code': '292', 'name': 'Гибралтарский фунт', 'course': '117.2852'}
+GMD, {'number_code': '270', 'name': 'Даласи', 'course': '16.4795'}
+GNF, {'number_code': '324', 'name': 'Гвинейский франк', 'course': '98.0214'}
+GTQ, {'number_code': '320', 'name': 'Кетсаль', 'course': '11.4085'}
+GYD, {'number_code': '328', 'name': 'Гайанский доллар', 'course': '42.0426'}
+HNL, {'number_code': '340', 'name': 'Лемпира', 'course': '35.7219'}
+HRK, {'number_code': '191', 'name': 'Хорватская куна', 'course': '12.8116'}
+HTG, {'number_code': '332', 'name': 'Гурд', 'course': '83.3739'}
+ILS, {'number_code': '376', 'name': 'Новый израильский шекель', 'course': '27.0254'}
+IQD, {'number_code': '368', 'name': 'Иракский динар', 'course': '60.2660'}
+IRR, {'number_code': '364', 'name': 'Иранский риал', 'course': '20.9427'}
+ISK, {'number_code': '352', 'name': 'Исландская крона', 'course': '67.5572'}
+JMD, {'number_code': '388', 'name': 'Ямайский доллар', 'course': '56.9778'}
+JOD, {'number_code': '400', 'name': 'Иорданский динар', 'course': '124.0614'}
+KES, {'number_code': '404', 'name': 'Кенийский шиллинг', 'course': '77.2083'}
+KHR, {'number_code': '116', 'name': 'Риель', 'course': '21.6383'}
+KMF, {'number_code': '174', 'name': 'Франк Комор', 'course': '19.7436'}
+KPW, {'number_code': '408', 'name': 'Северокорейская вона', 'course': '67.6612'}
+KWD, {'number_code': '414', 'name': 'Кувейтский динар', 'course': '289.9127'}
+LAK, {'number_code': '418', 'name': 'Кип', 'course': '76.7267'}
+LBP, {'number_code': '422', 'name': 'Ливанский фунт', 'course': '58.1666'}
+LKR, {'number_code': '144', 'name': 'Шри-Ланкийская рупия', 'course': '43.5443'}
+LRD, {'number_code': '430', 'name': 'Либерийский доллар', 'course': '57.0055'}
+LYD, {'number_code': '434', 'name': 'Ливийский динар', 'course': '19.0232'}
+MAD, {'number_code': '504', 'name': 'Марокканский дирхам', 'course': '91.0714'}
+MGA, {'number_code': '969', 'name': 'Малагасийских ариари', 'course': '22.0146'}
+MKD, {'number_code': '807', 'name': 'Денар', 'course': '15.7239'}
+MNT, {'number_code': '496', 'name': 'Тугрик', 'course': '30.5415'}
+MOP, {'number_code': '446', 'name': 'Патака', 'course': '10.9192'}
+MRU, {'number_code': '929', 'name': 'Мавританских угий', 'course': '24.1713'}
+MUR, {'number_code': '480', 'name': 'Маврикийская рупия', 'course': '20.0592'}
+MVR, {'number_code': '462', 'name': 'Руфия', 'course': '56.8949'}
+MWK, {'number_code': '454', 'name': 'Квача', 'course': '10.9450'}
+MXN, {'number_code': '484', 'name': 'Мексиканское песо', 'course': '42.5278'}
+MYR, {'number_code': '458', 'name': 'Малайзийский ринггит', 'course': '21.0581'}
+MZN, {'number_code': '943', 'name': 'Мозамбикских метикалов', 'course': '13.7222'}
+NAD, {'number_code': '516', 'name': 'Доллар Намибии', 'course': '57.7147'}
+NGN, {'number_code': '566', 'name': 'Найра', 'course': '21.1461'}
+NIO, {'number_code': '558', 'name': 'Золотая кордоба', 'course': '24.6006'}
+NPR, {'number_code': '524', 'name': 'Непальская рупия', 'course': '72.2134'}
+OMR, {'number_code': '512', 'name': 'Оманский риал', 'course': '228.4662'}
+PEN, {'number_code': '604', 'name': 'Новый соль', 'course': '23.5785'}
+PGK, {'number_code': '598', 'name': 'Кина', 'course': '24.9805'}
+PHP, {'number_code': '608', 'name': 'Филиппинское песо', 'course': '16.9773'}
+PKR, {'number_code': '586', 'name': 'Пакистанская рупия', 'course': '49.3531'}
+PYG, {'number_code': '600', 'name': 'Гуарани', 'course': '12.5891'}
+RWF, {'number_code': '646', 'name': 'Франк Руанды', 'course': '86.4892'}
+SAR, {'number_code': '682', 'name': 'Саудовский риял', 'course': '23.4440'}
+SBD, {'number_code': '90', 'name': 'Доллар Соломоновых Островов', 'course': '10.8982'}
+SCR, {'number_code': '690', 'name': 'Сейшельская рупия', 'course': '61.0830'}
+SDG, {'number_code': '938', 'name': 'Суданский фунт', 'course': '19.7120'}
+SHP, {'number_code': '654', 'name': 'Фунт Святой Елены', 'course': '117.7338'}
+SLE, {'number_code': '925', 'name': 'Леоне', 'course': '75.5666'}
+SLL, {'number_code': '694', 'name': 'Леоне (стар.)', 'course': '75.5666'}
+SOS, {'number_code': '706', 'name': 'Сомалийский шиллинг', 'course': '15.2048'}
+SRD, {'number_code': '968', 'name': 'Суринамский доллар', 'course': '42.9008'}
+STD, {'number_code': '678', 'name': 'Добра', 'course': '29.9004'}
+STN, {'number_code': '930', 'name': 'Добра Сан-Томе и Принсипи', 'course': '39.1465'}
+SVC, {'number_code': '222', 'name': 'Сальвадорский колон', 'course': '10.0473'}
+SYP, {'number_code': '760', 'name': 'Сирийский фунт', 'course': '35.0088'}
+SZL, {'number_code': '748', 'name': 'Лилангени', 'course': '57.7230'}
+TND, {'number_code': '788', 'name': 'Тунисский динар', 'course': '30.0101'}
+TOP, {'number_code': '776', 'name': 'Паанга', 'course': '38.8341'}
+TTD, {'number_code': '780', 'name': 'Доллар Тринидада и Тобаго', 'course': '12.9615'}
+TWD, {'number_code': '901', 'name': 'Новый тайваньский доллар', 'course': '31.2739'}
+TZS, {'number_code': '834', 'name': 'Танзанийский шиллинг', 'course': '37.9955'}
+UGX, {'number_code': '800', 'name': 'Угандийский шиллинг', 'course': '24.6904'}
+UYU, {'number_code': '858', 'name': 'Уругвайское песо', 'course': '20.5825'}
+VEF, {'number_code': '937', 'name': 'Венесуэльский боливар фуэрте', 'course': '26.9095'}
+VES, {'number_code': '928', 'name': 'Венесуэльский боливар cоберан', 'course': '20.1608'}
+VUV, {'number_code': '548', 'name': 'Вату', 'course': '78.0994'}
+XAF, {'number_code': '950', 'name': 'Франк КФА ВЕАС', 'course': '14.5961'}
+XCD, {'number_code': '951', 'name': 'Восточно-карибский доллар', 'course': '32.4574'}
+XOF, {'number_code': '952', 'name': 'Франк КФА ВСЕАО', 'course': '14.7459'}
+YER, {'number_code': '886', 'name': 'Йеменский риал', 'course': '35.1487'}
+ZMW, {'number_code': '967', 'name': 'Замбийская квача', 'course': '48.8393'}
