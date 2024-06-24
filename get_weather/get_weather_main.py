@@ -28,8 +28,8 @@ def get_weather(html: str):
         return
     soup = bs(html, 'html.parser')
     # date = soup.find('div', class_="dates short-d").text.split(', ')  # None
-    date = soup.find_all('div', class_="dates short-d")[1].text.split(', ')  # None
-    # date = soup.find('div', class_="dates short-d red").text.split(', ')  # None
+    # date = soup.find_all('div', class_="dates short-d")[1].text.split(', ')  # None
+    date = soup.find_all('div', class_="dates short-d red")[1].text.split(', ')  # None
 
     day_of_week = date[0]
     day_of_month = date[1]
@@ -75,5 +75,7 @@ weather_info = get_weather(html)
 weather_json = json.dumps(weather_info, indent=2, ensure_ascii=False)
 print(weather_json)
 
+# weather_json1 = json.dumps(weather_info1, indent=2, ensure_ascii=False)
+# print(weather_json1)
 # with open('index.html', 'w') as file:
 #     file.write(html)
